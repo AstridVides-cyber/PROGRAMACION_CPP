@@ -191,6 +191,14 @@ int main() {
     cout << "   int numero;" << endl;
     cout << "   cout << \"Ingresa un número: \";" << endl;
     cout << "   cin >> numero;" << endl << endl;
+
+    // Ejemplo práctico comentado:
+    /*
+    int tuEdad;
+    cout << "Ingresa tu edad: ";
+    cin >> tuEdad;
+    cout << "Tu edad es: " << tuEdad << endl;
+    */
     
     return 0;
 };
