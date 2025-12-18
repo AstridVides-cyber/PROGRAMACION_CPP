@@ -1,9 +1,15 @@
 // Hacer mi primer hola mundo en C++
+
+// primer paso 
 #include <iostream>
+// segundo paso 
 using namespace std;
 
+// tercer paso 
 int main(){
+    //cuarto paso 
     cout << "Hola mundo" << endl;
+    //quinto paso 
     return 0;
 
 };
