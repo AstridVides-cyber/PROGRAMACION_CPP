@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 
-    cout << "=====================================================" << endl;
-    cout << "=== TIPOS DE DATOS Y DECLARACIÓN DE VARIABLES ====" << endl;
-    cout << "=====================================================" << endl << endl;
+    cout << "======================================================" << endl;
+    cout << "===== TIPOS DE DATOS Y DECLARACIÓN DE VARIABLES ======" << endl;
+    cout << "======================================================" << endl << endl;
     
     // ==========================================
     // ¿QUÉ ES UNA VARIABLE?
@@ -41,9 +41,10 @@ int main() {
     cout << "4. Declaración con auto:" << endl;
     cout << "   auto numero = 100; --> " << numero << endl;
     cout << "   auto precio = 19.99; --> " << precio << endl << endl;
-    
+
     cout << "=====================================================" << endl << endl;
-    cout << "=== TIPOS DE DATOS EN C++ ===" << endl << endl;
+    cout << "=============== TIPOS DE DATOS EN C++ ===============" << endl << endl;
+    cout << "=====================================================" << endl << endl;
 
     // ================================================================
     // CHAR: Para guardar un solo carácter o números muy pequeños
@@ -192,7 +193,7 @@ int main() {
     cout << "   cout << \"Ingresa un número: \";" << endl;
     cout << "   cin >> numero;" << endl << endl;
 
-    // Ejemplo práctico comentado:
+    // Ejemplo práctico de entrada de datos:
     /*
     int tuEdad;
     cout << "Ingresa tu edad: ";
