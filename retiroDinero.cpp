@@ -20,3 +20,17 @@ int main() {
 
     return 0;
 }
+
+/*
+if-else
+Operadores de comparación comunes:
+    == igual a
+    != diferente de
+    > mayor que
+    < menor que
+    >= mayor o igual que
+    <= menor o igual que
+    && AND lógico
+    || OR lógico
+    ! NOT lógico
+*/
