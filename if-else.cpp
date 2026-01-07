@@ -4,7 +4,8 @@ using namespace std;
 
 int main() {
 
-   // Variables 
+    /*
+       // Variables 
     int nota;
     char continuar;
     
@@ -18,7 +19,6 @@ int main() {
         return 1;
     }
 
-    /*
     // EJEMPLO 2: if con else if (múltiples condiciones)
     cout << "\n--- Calificacion obtenida ---" << endl;
     if (nota >= 90) {
@@ -44,6 +44,21 @@ int main() {
         cout << "Estado: REPROBADO" << endl;
         cout << "Debes estudiar mas para la proxima." << endl;
     }*/
+
+    // Ejercicio: Descuento en compras
+    cout << "\n=== Ejercicio: Descuento por compra ===" << endl;
+    double compra = 1500.0;
+    double descuento = 0;
+    if (compra >= 1000) {
+        descuento = compra * 0.20; // 20% de descuento
+        cout << "Descuento del 20%: $" << descuento << endl;
+    } else if (compra >= 500) {
+        descuento = compra * 0.10; // 10% de descuento
+        cout << "Descuento del 10%: $" << descuento << endl;
+    } else {
+        cout << "No hay descuento" << endl;
+    }
+    cout << "Total a pagar: $" << (compra - descuento) << endl;
 
 
     /*
