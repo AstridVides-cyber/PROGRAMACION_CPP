@@ -83,8 +83,6 @@ int main() {
         default:
             cout << "Dia no valido" << endl;
     }
-
-   */
     
     // EJEMPLO 3: Switch con operaciones matemáticas
     cout << "=== Calculadora Simple ===" << endl;
@@ -129,6 +127,36 @@ int main() {
         default:
             cout << "Operador invalido" << endl;
     }
+    */
+
+    // EJERCICIO 4: Categoría de edad
+    cout << "\n=== Ejercicio 4: Categoria por edad ===" << endl;
+    int edad = 85;
+    int categoria = edad / 10; // Dividir por 10 para agrupar
+    
+    switch(categoria) {
+        case 0:
+            cout << "Edad: " << edad << " - Categoria: NIÑO (0-9 anos)" << endl;
+            break;
+        case 1:
+            cout << "Edad: " << edad << " - Categoria: ADOLESCENTE (10-19 anos)" << endl;
+            break;
+        case 2:
+        case 3:
+            cout << "Edad: " << edad << " - Categoria: ADULTO JOVEN (20-39 anos)" << endl;
+            break;
+        case 4:
+        case 5:
+            cout << "Edad: " << edad << " - Categoria: ADULTO (40-59 anos)" << endl;
+            break;
+        default:
+            if (edad >= 60) {
+                cout << "Edad: " << edad << " - Categoria: ADULTO MAYOR (60+ anos)" << endl;
+            } else {
+                cout << "Edad invalida" << endl;
+            }
+    }
+    
     
     return 0;
 }
